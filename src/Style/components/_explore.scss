@@ -1,0 +1,153 @@
+@use '../components/LogButton';
+@import '../abstracts/variables/color';
+@import '../abstracts/variables/font';
+
+.exploreSection{
+    width: 100%;
+    height: 55rem;
+    position: relative;
+    .backgroundvideo{
+        width: 100%;
+        height: 90%;
+        position: relative;
+        overflow: hidden;
+        h1{
+            position: absolute;
+            top: 17%;
+            left: 25%;
+            color: $whiteBackground;
+            text-align: center;
+            z-index: 1;
+            font-size: 2.3rem;
+        }
+        p{
+            position: absolute;
+            top: 26%;
+            left: 36%;
+            color: $whiteBackground;
+            text-align: center;
+            z-index: 1;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        video{
+        //    backdrop-filter: blur(5px);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.5);
+            opacity: 0.9;
+        }     
+    }
+
+    .citiesBlock{
+        position: absolute;
+        width: 76%;
+        height: 34rem;
+        top: 34%;
+        left: 12%;
+        background: $whiteBackground;
+        border-radius: 1rem;
+        box-shadow:  6px -6px 12px #3a3a3a60,
+             -6px 6px 12px #4343434a;
+
+        .cityHeading{
+            width: 100%;
+            height: 22%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-size: 1.7rem;
+                padding: 1.8rem 0rem 1.4rem 0rem;
+            }
+            p{
+                font-size: 1.5rem;
+                font-weight: 600;
+                color: rgba(37, 37, 37, 0.756);
+                span{
+                    color: $blueHighlight;
+                }
+            }
+           
+        }
+        .cityImages{
+            width: 100%;
+            height: 55%;
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: space-evenly;
+            div{
+                width: 22%;
+                height: 6rem;
+                border: 1px solid rgba(0, 0, 0, 0.113);
+                border-radius: 0.4rem;
+                padding: 0.7rem;
+                display: flex;
+                gap: 1.6rem;
+                align-items: center;
+                object-fit: contain;
+                overflow: hidden;
+                cursor: pointer;
+                h1{
+                    font-size: 1.3rem;
+                    font-weight: 700;
+                }
+                img{
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 0.3rem;
+                    
+                    
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 50%; 
+                    background: rgba(0, 0, 0, 0.5); 
+                    pointer-events: none; 
+                    transition: opacity 0.3s ease;
+                    opacity: 0;
+                    
+                }
+                
+                &:hover{
+                    border: 1px solid rgba(0, 0, 0, 0.449);
+                    img {
+                        animation: cityAnimation 0.5s cubic-bezier(0,0,.2,1) forwards ;
+                        opacity: 0.7;
+                    }
+                    
+                    @keyframes cityAnimation {
+                        from {
+                            transform: scale(1);
+                        }
+                        to {
+                            transform: scale(155%);
+                            
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        .citi-btn{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button{
+                padding: 1.2rem 6rem;
+            }
+        }
+    }
+
+}

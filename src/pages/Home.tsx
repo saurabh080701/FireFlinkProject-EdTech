@@ -1,7 +1,10 @@
-
 import NavigationBar from '../components/NavigationBar';
 import Banner from '../components/Banner';
 import ExamCategories from '../components/ExamCategories/ExamCategories';
+import Explore from '../components/Explore';
+import Achievements from '../components/Achievements';
+import Footer from '../components/Footer';
+
 
 const Home = () => {
   return (
@@ -12,9 +15,13 @@ const Home = () => {
       <main id='mainContent'>
             <Banner/>
             <ExamCategories/>
+            <Explore/>
+            <Achievements/>
       </main>
         
-      
+      <footer className='footer'>
+        <Footer/>
+      </footer>
     </>
   )
 }

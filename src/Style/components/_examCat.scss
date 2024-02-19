@@ -4,8 +4,7 @@
 
 .examCategories{
     width: 100%;
-    height: 120rem;
-    
+    height: 110rem;
     padding: 8rem 0rem 0rem 13rem;
     .examHeading{
         width: 85%;
@@ -19,13 +18,16 @@
         p{  
             text-align: center;
             font-size: 1.3rem;
-            font-weight: 500;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.681);
         }
     }
     .examsNamesBlocks{
         width: 85%;
-        min-height: 94%;
-        border: 1px solid blue;
+        min-height: 90%;
         padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
     }
 }

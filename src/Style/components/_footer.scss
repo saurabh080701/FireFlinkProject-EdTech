@@ -1,0 +1,14 @@
+@use '../components/LogButton';
+@import '../abstracts/variables/color';
+@import '../abstracts/variables/font';
+
+.footer{
+    width: 100%;
+    height: 35rem;
+    padding-top: 4rem;
+}
+.footerSection{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f3fa;
+}

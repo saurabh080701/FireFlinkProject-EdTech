@@ -1,0 +1,103 @@
+@use '../components/LogButton';
+@import '../abstracts/variables/color';
+@import '../abstracts/variables/font';
+
+
+.singleExamDetailCard{
+    width: 32%;
+    height: auto;
+    border: 1px solid rgba(89, 75, 218, 0.227);
+    border-radius: 0.4rem;
+    display: flex;
+    box-shadow: -5px -5px 10px rgba(89, 75, 218, 0.08),
+                    5px 5px 10px rgba(89, 75, 218, 0.1);
+    
+
+    &:hover{
+        border: 1px solid rgba(0, 0, 0, 0.781);
+    }
+    .examCard-topic{
+        width: 70%;
+        height: 100%;
+        padding: 2rem 0rem 0rem 2rem;
+        h1{
+            font-size: 1.6rem;
+            padding-bottom: 2rem;
+        }
+        .examtype{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.7rem;
+            div{
+                border: 1px solid rgba(0, 0, 0, 0.171);
+                padding: 0.8rem 1.3rem;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+        }
+
+        .exploreLink{
+            padding-top: 2rem;
+            position: relative;
+            a{
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: rgba(0, 0, 0, 0.913);
+                padding-right: 1rem;
+                cursor: pointer;
+                .examExploreArrow{
+                    width: 3rem;
+                    height: 2rem;
+                    display: block;
+                    font-size: 1.8rem;
+                    position: absolute;
+                    top: 52%;
+                    left: 75%;
+                   
+                }
+                
+                &:hover{
+                    color: $blueHighlight;
+                    text-decoration: underline;
+                    .examExploreArrow{
+                        border-radius: 30px;
+                        background-color: $blueHighlight;
+                        color: $whiteBackground;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .examCardImg{
+        width: 35%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    
+        img{
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+    &:hover{
+        img{
+            scale: 1.1;
+            animation: examZoom  0.4s ease-in-out forwards;
+        }
+        @keyframes examZoom {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(110%);
+                
+            }
+        }
+    }
+}

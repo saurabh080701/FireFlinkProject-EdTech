@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
+import EXAM from '../../../backend/ExamCategories.json';
+import SingleExamCat from './SingleExamCat';
 
 const ExamCategories = () => {
+
   return (
     <section className='examCategories'>
       <header className='examHeading'>
@@ -9,10 +12,12 @@ const ExamCategories = () => {
       </header>
 
       <main className='examsNamesBlocks'>
-          
+            {EXAM.map((exam , index) => (
+                <SingleExamCat key={index} exam={exam} />
+              ))}
       </main>
     </section>
-  )
-}
+  );
+};
 
-export default ExamCategories
+export default ExamCategories;
