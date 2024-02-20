@@ -1,10 +1,12 @@
 import React from 'react'
 import Home from './Home'
+import SupportPage from './SupportPage'
 
 const Layout = () => {
   return (
     <>
-        <Home/>
+        {/* <Home/> */}
+        <SupportPage />
     </>
   )
 }
