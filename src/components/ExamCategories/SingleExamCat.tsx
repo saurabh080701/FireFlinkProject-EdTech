@@ -8,9 +8,10 @@ type exam = {
     types_of_exams: string[];
     image: string;
   };
+  divStyle: React.CSSProperties;
 };
 
-const SingleExamCat = ( {exam} :exam) => {
+const SingleExamCat = ( { exam , divStyle}) => {
   console.log(exam);
   
   return (
@@ -34,7 +35,7 @@ const SingleExamCat = ( {exam} :exam) => {
           </div>
         </aside>
 
-        <picture className='examCardImg'>
+        <picture className='examCardImg' style={divStyle}>
               <img src={`../../../assets/ExamCategoriesImages/${exam.image}`} alt={exam.exam_category} />
         </picture>
 
