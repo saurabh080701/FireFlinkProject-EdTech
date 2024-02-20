@@ -37,17 +37,24 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            padding-top: 6rem;
             background-color: #fceeda;
+            img{
+                width: 8rem;
+                height: 8rem;
+                visibility: hidden;
+                display: none;
+            }
             h1{
                 font-size: 2.7rem;
                 font-weight: 900;
-                padding-bottom: 1.3rem;
+                padding-bottom: 1.2rem;
             }
             p{
                 font-size: 1.2rem;
                 font-weight: 600;
                 color: rgba(0, 0, 0, 0.717);
+                padding-bottom: 2rem;
             }
             &:nth-child(2){
                 background-color: #fee5e5;
@@ -57,6 +64,39 @@
             }
             &:nth-child(4){
                 background-color: #e1d8ff;
+            }
+
+            &:hover{
+                padding-top: 3rem;
+                img{
+                    visibility: visible;
+                    display: inline;
+                    animation: achive 0.5s cubic-bezier(0,0,.2,1) forwards ;
+                }
+                h1{
+                    animation: textAni 0.2s ease-in-out forwards ;
+                }
+                p{
+                    animation: textAni 0.2s ease-in-out forwards ;
+                }
+                @keyframes textAni {
+                    from {
+                        transform: translateY(0%);
+                    }
+                    to {
+                        transform: translateY(-30%);
+                        
+                    }
+                }
+                @keyframes achive {
+                    from {
+                        transform: scale(0%);
+                    }
+                    to {
+                        transform: scale(100%);
+                        
+                    }
+                }
             }
         }
     }
