@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title" : "UPSC",
+        "description": "The Union Public Service Commission is a constitutional body of India that conducts direct recruitment of officers to the All India Services and the Central Civil Services through examinations and appoints officers in various Services under the Government of India."
+        
+    },
+    {
+        "id": 2,
+        "title" : "IIT JEE",
+        "description": "JEE stands for Joint Entrance Exam and it is a national entrance exam held for candidates seeking to pursue an engineering course from various colleges across the country. IIT stands for Indian Institute of Technology and these are the most prestigious colleges to study engineering in India."
+        
+    },
+    {
+        "id": 3,
+        "title" : "NEET",
+        "description": "The National Eligibility-cum-Entrance Test (Undergraduate) or NEET, formerly the All India Pre-Medical Test, is an all India pre-medical entrance test for students who wish to pursue undergraduate" 
+    },
+    {
+        "id": 4,
+        "title" : "GATE",
+        "description": "The Graduate Aptitude Test in Engineering is an entrance examination conducted in India that primarily tests the comprehensive understanding of undergraduate subjects in engineering and sciences for admission into postgraduate programs"
+        
+    },
+    {
+        "id": 5,
+        "title" : "MBA",
+        "description": "A Master of Business Administration is a postgraduate degree focused on business administration. The core courses in an MBA program cover various areas of business administration such as accounting"
+        
+    },
+    {
+        "id": 6,
+        "title" : "CA",
+        "description": "Chartered Accountants or CA are professionals who are in charge of financial accounting and reporting, management accounting, audit, insurance, finance, taxation, economic planning, and capital formation."
+        
+    },
+    {
+        "id": 7,
+        "title" : "STATE PSC",
+        "description": "The state PSC exam is one of the most popular yet toughest recruitment exams in the country. The Public Service Commission conducts these exams under the respective State Government. Lakhs of candidates aspiring to join state-level civil services posts apply for this exam every year, making it highly competitive."
+    }
+]

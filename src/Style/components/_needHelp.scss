@@ -1,0 +1,29 @@
+@use '../components/LogButton';
+@import '../abstracts/variables/color';
+@import '../abstracts/variables/font';
+
+
+.needHelp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    gap: 16%;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 2.25rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,126 @@
+$breakpoint-small: 768px;
+
+:root {
+  font-size: 16px;
+}
+
+.login-container {
+  max-width: 50rem;
+  margin: 3.125rem auto;
+  padding: 1.25rem;
+  border-radius: 0.3125rem;
+  background-color: #fff;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+
+    .form-group {
+      margin-bottom: 1.25rem;
+
+      label {
+        font-weight: bold;
+      }
+
+      .form-control {
+        padding: 0.625rem;
+        border: 0.0625rem solid #ccc;
+        border-radius: 0.3125rem;
+        width: 100%;
+      }
+    }
+  }
+
+  .btn {
+    padding: 0.625rem 1.25rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.625rem;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.parentlogin-container {
+  height: 35.25rem;
+  width: 55rem;
+  margin: auto;
+  margin-top: 6.25rem;
+  border: 0.0625rem solid #ccc;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+
+  .image-container {
+    height: 100%;
+    width: 50%;
+    border-right: 0.0625rem solid #ccc;
+    display: flex;
+    justify-content: center;
+    background-color: #e6b0e6;
+
+    picture {
+      height: 50%;
+      width: 90%;
+
+      img {
+        height: 100%;
+        width: 90%;
+      }
+    }
+  }
+}
+
+.contentbox {
+  h4 {
+    color: #3c4852;
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    margin-left: 0.3125rem;
+    color: #3c4852;
+    font-size: 1.125rem;
+
+    span {
+      margin-right: 0.3125rem;
+    }
+  }
+}
+
+.Create-account p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #0056b3;
+  text-decoration: underline #0056b3;
+  cursor: pointer;
+}
+
+@media screen and (max-width: $breakpoint-small) {
+  .parentlogin-container {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .image-container,
+  .login-container {
+    width: 100%;
+  }
+
+  .image-container {
+    border-right: none;
+    height: 30vh;
+  }
+}
