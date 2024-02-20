@@ -7,8 +7,8 @@ const Layout = () => {
   return (
     <>
         {/* <Home/> */}
-        {/* <SupportPage /> */}
-        <Login />
+        <SupportPage />
+        {/* <Login /> */}
     </>
   )
 }

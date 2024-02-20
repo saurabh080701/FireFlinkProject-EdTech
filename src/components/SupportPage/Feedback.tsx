@@ -24,7 +24,7 @@ const FeedBack: React.FC<FeedBackProps> = ({ handleButtonClick }) => {
                     <Button onClick={handleButtonClickLocal} sx={{ borderRadius: '44%', backgroundColor: '#efefee' }}>
                         <img src="https://help-centre.pw.live/_next/static/media/thumbs-up.651d2633.svg" alt="Thumbs up" />
                     </Button>
-                    <Button onClick={handleButtonClickLocal} sx={{ borderRadius: '44%', backgroundColor: '#efefee' }}>
+                    <Button onClick={handleButtonClickLocal} sx={{ borderRadius: '44%', backgroundColor: '#efefeef' }}>
                         <img src="https://help-centre.pw.live/_next/static/media/thumbs-down.7ba6278c.svg" alt="Thumbs down" />
                     </Button>
                 </>
