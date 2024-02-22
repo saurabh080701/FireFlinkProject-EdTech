@@ -115,6 +115,13 @@
       "lastName": "Arora",
       "email": "chirag@gmail.com",
       "password": "123456789"
+    },
+    {
+      "id": "dc1e",
+      "firstName": "Chirag",
+      "lastName": "Arora",
+      "email": "chirag@gmail.com",
+      "password": "1234567"
     }
   ]
 }

@@ -1,17 +1,19 @@
 import React from 'react'
 import { GoArrowRight } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
-type exam = {
+export type Exam = {
   key:number,
   exam:{
+    id: number;
     exam_category: string;
-    types_of_exams: string[];
+    types_of_exams?: string[] | undefined;
     image: string;
   };
   divStyle: React.CSSProperties;
 };
 
-const SingleExamCat = ( { exam , divStyle}) => {
+const SingleExamCat = ( { exam , divStyle}: Exam) => {
   console.log(exam);
   
   return (
@@ -23,14 +25,14 @@ const SingleExamCat = ( { exam , divStyle}) => {
               
               {exam.types_of_exams && (
                 <div className='examtype'>
-                  {exam.types_of_exams.map((examType, index) => (
-                <div key={index} >{examType}</div>
+                  {exam.types_of_exams.map((examType: string, index: number) => (
+                <div key={index}>{examType}</div>
                 ))}
                 </div>
             )}
 
           <div className='exploreLink'>
-              <a href="">Explore Category <GoArrowRight className='examExploreArrow'/> </a>
+              <Link  to={`/courseDetails/${exam.id}`} state= {{id: exam.id}}>Explore Category <GoArrowRight className='examExploreArrow'/> </Link>
               
           </div>
         </aside>

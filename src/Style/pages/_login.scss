@@ -1,19 +1,21 @@
-$breakpoint-small: 768px;
+$primary-color: #007bff;
+$link-color: #0056b3;
+$border-color: #ccc;
 
 :root {
-  font-size: 16px;
+  font-size: 16px; 
 }
 
 .login-container {
-  max-width: 50rem;
-  margin: 3.125rem auto;
-  padding: 1.25rem;
-  border-radius: 0.3125rem;
+  max-width: 50rem; 
+  margin: 3.125rem auto; 
+  padding: 1.25rem; 
+  border-radius: 0.3125rem; 
   background-color: #fff;
 
   h2 {
     text-align: center;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem; 
   }
 
   .login-form {
@@ -21,93 +23,89 @@ $breakpoint-small: 768px;
     flex-direction: column;
 
     .form-group {
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.25rem; 
 
       label {
         font-weight: bold;
       }
 
       .form-control {
-        padding: 0.625rem;
-        border: 0.0625rem solid #ccc;
-        border-radius: 0.3125rem;
+        padding: 0.625rem; 
+        border: 0.0625rem solid $border-color; 
+        border-radius: 0.3125rem; 
         width: 100%;
       }
     }
   }
 
   .btn {
-    padding: 0.625rem 1.25rem;
-    background-color: #007bff;
+    padding: 0.625rem 1.25rem; 
+    background-color: $primary-color;
     color: #fff;
     border: none;
     border-radius: 0.3125rem;
     cursor: pointer;
     width: 100%;
-    margin-top: 0.625rem;
+    margin-top: 0.625rem; 
 
     &:hover {
-      background-color: #0056b3;
+      background-color: darken($primary-color, 10%);
     }
   }
 }
 
 .parentlogin-container {
   height: 35.25rem;
-  width: 55rem;
+  width: 55rem; 
   margin: auto;
-  margin-top: 6.25rem;
-  border: 0.0625rem solid #ccc;
+  margin-top: 6.25rem; 
+  border: 0.0625rem solid $border-color;
   display: flex;
   flex-direction: row;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3); 
+  border: 0.0625rem #ccc;
 
   .image-container {
     height: 100%;
     width: 50%;
-    border-right: 0.0625rem solid #ccc;
+    border-right: 0.0625rem solid $border-color;
     display: flex;
     justify-content: center;
     background-color: #e6b0e6;
 
+    picture img {
+      height: 100%;
+      width: 90%; 
+    }
+
     picture {
       height: 50%;
-      width: 90%;
-
-      img {
-        height: 100%;
-        width: 90%;
-      }
+      width: 90%; 
     }
   }
 }
 
 .contentbox {
   h4 {
-    color: #3c4852;
-    font-size: 1.25rem;
+    color: #3C4852;
+    font-size: 1.25rem; 
+    margin-top: 1rem;
   }
 
   h5 {
-    margin-left: 0.3125rem;
-    color: #3c4852;
-    font-size: 1.125rem;
+    margin-left: 0.3125rem; 
+    color: #3C4852;
+    font-size: 1.125rem; 
+    margin-top: 1rem;
+  }
 
-    span {
-      margin-right: 0.3125rem;
-    }
+  h5 span {
+    margin-right: 0.3125rem;
+    margin-top: 1rem; 
   }
 }
 
-.Create-account p {
-  margin-top: 2rem;
-  font-size: 1rem;
-  color: #0056b3;
-  text-decoration: underline #0056b3;
-  cursor: pointer;
-}
-
-@media screen and (max-width: $breakpoint-small) {
+@media screen and (max-width: 768px) {
   .parentlogin-container {
     flex-direction: column;
     height: auto;
@@ -122,5 +120,17 @@ $breakpoint-small: 768px;
   .image-container {
     border-right: none;
     height: 30vh;
+  }
+}
+
+.Create-account {
+  p {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: $link-color;
+    cursor: pointer;
+  }
+  span{
+    text-decoration: underline;
   }
 }

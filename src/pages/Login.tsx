@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import { TfiCheckBox } from "react-icons/tfi";
-import Registration from './Register'; 
-
+import { useNavigate } from 'react-router-dom';
 type LoginFormData = {
   email: string;
   password: string;
 }
 
 const Login: React.FC = () => {
+
+  const navigate = useNavigate();
   const [formData, setFormData] = useState<LoginFormData>({
     email: '',
     password: '',
@@ -35,6 +35,7 @@ const Login: React.FC = () => {
           email: '',
           password: '',
         });
+        navigate('/');
       } else {
         toast.error('Invalid email or password. Please try again.');
       }
@@ -49,7 +50,7 @@ const Login: React.FC = () => {
   };
 
   if (showRegistration) {
-    return <Registration />; 
+    navigate('/register')
   }
 
   return (

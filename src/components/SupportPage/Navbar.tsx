@@ -2,6 +2,7 @@ import { AppBar, Button, Menu, MenuItem, Stack, Toolbar, Typography } from "@mui
 import React, { useState } from "react";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -44,10 +45,12 @@ export const Navbar = () => {
                             justifyContent: 'center',
                             alignItems: 'center'
                         }}>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Physics_wallah_logo.jpg" alt="" width={'45px'} height={'45px'} />
+                            <Link to ={'/'} style={{cursor: "pointer", display:'flex', flexDirection:"row", textDecoration: 'none', color: 'inherit', gap:'0.75rem', justifyContent: 'center', alignItems: 'center'}}>
+                            <img className='pwLogo'src="https://upload.wikimedia.org/wikipedia/commons/7/76/Physics_wallah_logo.jpg" alt="" width={'45px'} height={'45px'} />
                             <Typography variant="h6" component={'div'} sx={{ flexGrow: 1, fontWeight: 600 }}>
                                 PW Support Page
                             </Typography>
+                            </Link>
                         </Stack>
                         <Stack direction={'row'} spacing={2}>
                             <Button sx={{ fontWeight: '400' }} >PW Centers</Button>

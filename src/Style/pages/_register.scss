@@ -1,21 +1,21 @@
-$phone: phone;
-$tablet: tablet;
-$desktop: desktop;
+$phone: 600px;
+$tablet: 900px;
+$desktop: 1200px;
 
 :root {
-  font-size: 16px;
+  font-size: 16px; 
 }
 
 .registration-container {
-  max-width: 25rem;
-  margin: 2rem auto;
-  padding: 1.25rem;
-  border-radius: 0.3125rem;
+  max-width: 20rem; 
+  margin: 1.5rem auto; 
+  padding: 1.25rem; 
+  border-radius: 0.3125rem; 
   background-color: #fff;
 
   h2 {
     text-align: center;
-    margin-bottom: 1.25rem;
+    margin-bottom: 3.25rem;
   }
 
   .registration-form {
@@ -23,15 +23,15 @@ $desktop: desktop;
     flex-direction: column;
 
     .form-group {
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.25rem; 
 
       label {
         font-weight: bold;
-      }
+      } 
 
       .form-control {
         padding: 0.625rem;
-        border: 0.0625rem solid #ccc;
+        border: 0.0625rem solid #ccc; 
         border-radius: 0.3125rem;
         width: 100%;
       }
@@ -39,11 +39,11 @@ $desktop: desktop;
   }
 
   .btn {
-    padding: 0.625rem 1.25rem;
+    padding: 0.625rem 1.25rem; 
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 0.3125rem;
+    border-radius: 0.3125rem; 
     cursor: pointer;
     width: 100%;
 
@@ -55,9 +55,9 @@ $desktop: desktop;
 
 .registration-main-container {
   height: 35.25rem;
-  width: 55rem;
+  width: 55rem; 
   margin: auto;
-  margin-top: 6.25rem;
+  margin-top: 6.25rem; 
   border: 0.0625rem #ccc;
   display: flex;
   flex-direction: row;
@@ -66,53 +66,66 @@ $desktop: desktop;
   .image-container {
     height: 100%;
     width: 50%;
-    border-right: 0.0625rem solid #ccc;
+    border-right: 0.0625rem solid #ccc; 
     display: flex;
     justify-content: center;
     background-color: #e6b0e6;
 
+    picture img {
+      height: 100%;
+      width: 90%; 
+    }
+
     picture {
       height: 50%;
-      width: 90%;
-
-      img {
-        height: 100%;
-        width: 90%;
-      }
+      width: 90%; 
     }
   }
 
   .contentbox {
     h4 {
-      color: #3c4852;
-      font-size: 1.25rem;
+      color: #3C4852;
+      font-size: 1.25rem; 
+      margin-top: 1rem; 
     }
 
     h5 {
-      margin-left: 0.3125rem;
-      color: #3c4852;
-      font-size: 1.125rem;
+      margin-left: 0.3125rem; 
+      color: #3C4852;
+      font-size: 1.125rem; 
+      margin-top: 1rem; 
+    }
 
-      span {
-        margin-right: 0.3125rem;
-      }
+    h5 span {
+      margin-right: 0.3125rem; 
+      margin-top: 1rem; 
     }
   }
 }
 
+.first-Last {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.Create-account {
+  text-align: center;
+}
+
 @mixin respond($breakpoint) {
-  @if $breakpoint == $phone {
-    @media (max-width: 600px) {
+  @if $breakpoint == phone {
+    @media (max-width: #{$phone}) {
       @content;
     }
   }
-  @else if $breakpoint == $tablet {
-    @media (max-width: 900px) {
+  @if $breakpoint == tablet {
+    @media (max-width: #{$tablet}) {
       @content;
     }
   }
-  @else if $breakpoint == $desktop {
-    @media (max-width: 1200px) {
+  @if $breakpoint == desktop {
+    @media (max-width: #{$desktop}) {
       @content;
     }
   }

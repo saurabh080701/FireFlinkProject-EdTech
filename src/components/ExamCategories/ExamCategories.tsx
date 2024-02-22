@@ -1,4 +1,4 @@
-import React from 'react';
+
 import EXAM from '../../../backend/ExamCategories.json';
 import SingleExamCat from './SingleExamCat';
 

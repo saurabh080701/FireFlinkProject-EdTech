@@ -1,4 +1,5 @@
-import React from 'react';
+
+
 import logo from '../../assets/pwLogo.png';
 import googlePlay from '../../assets/googleplay.webp';
 import appleStore from '../../assets/apple-store.webp';

@@ -39,7 +39,7 @@
             list-style: none;
             button{
                 background-color: $whiteBackground;
-                padding: 1.1rem 2.9rem;
+                padding: 0.5rem 1rem;
                 font-size: 1rem;
                 font-weight: 700;
                 color: $blueHighlight;
@@ -55,11 +55,11 @@
     }
 
     .navBar-Auth{
-        height: 100%;
-        width: 30%;
+        height: 90%;
+        width: 20%;
         display: flex;
         align-items: center;
-        padding-left: 6.5rem;
+        padding-left: 6rem;
     }
 }
 

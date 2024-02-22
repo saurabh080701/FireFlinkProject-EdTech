@@ -1,0 +1,249 @@
+// 
+
+@import '../abstracts/variables/color';
+@import '../abstracts/variables/font';
+
+
+.course_webpage {
+  position: relative;
+  margin-top: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_bar {
+  background-color: $nav_Color;
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $text_Color;
+
+  &_container {
+    height: auto;
+    width: 80%;
+    padding: 1.25rem;
+    font-family: $font-family;
+    word-wrap: break-word;
+    h1{
+      font-size: 3rem;
+    }
+    h6{
+      font-size: 1.15rem;
+    }
+  }
+  margin-bottom: 1.25rem;
+  margin-top: -5px;
+}
+
+
+
+.parent_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 80%;
+  border-radius: 0.938rem;
+}
+
+#accordion {
+  border-radius: 0.938rem;  
+  border: 0.125rem solid #a8a2a2;
+}
+
+.course_description_box {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5%;
+
+  .video_part{
+    padding-left: 0px;
+    width: 40%;
+  }
+  .content_part{
+    width: 40%;
+  }
+  .video_part,
+  .content_part {
+    height: 16rem;
+    background-color: white;
+
+    video,
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 0.938rem;
+    }
+  }
+
+  .content_part {
+    text-transform: capitalize;
+    h1 {
+      font-size: 1.75rem;
+    }
+    h3{
+      font-size: 0.9rem;
+    }
+  }
+}
+.discount_details {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  text-align: center;
+  align-items: baseline;
+
+  h2{
+    font-size: 1.75rem;
+  }
+  h3 {
+    margin-top: 1.6rem;
+  }
+}
+
+.discount_percentage {
+  font-size: 1.25rem;
+  margin-left: 3.75rem;
+  margin-top: 1rem;
+  height: fit-content;
+  padding: 1% 6%;
+  border-radius: 1.25rem;
+  background-color: #46b284;
+  color: white;
+
+
+}
+
+#AccordionDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.313rem;
+}
+
+.explore_btn {
+  background-color: #0a58ca;
+  padding: 0.438rem 1.563rem;
+  font-size: 1.25rem;
+  color: white;
+  border-radius: 1.25rem;
+  border-style: none;
+}
+
+.parent_batch {
+  height: fit-content;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(246, 244, 242);
+  border-radius: 0.938rem;
+
+  &:hover {
+    box-shadow: 2px 2px 15px 2px rgb(136, 134, 134);
+  }
+}
+
+.qns,
+.ans {
+  padding: 15px 15px;
+  // margin-left: 3%;
+  height: auto;
+}
+
+.ans {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #3b3a3a;
+}
+
+.content_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font-size: 1.25rem;
+  }
+}
+
+.special_bar {
+  width: 100%;
+  background-color: #f6f2f2;
+  border-radius: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .discount_percentage {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+    margin-top: 1.25rem;
+    height: max-content;
+    padding: 1% 2%;
+    border-radius: 1.25rem;
+    background-color: #46b284;
+    color: white;
+  }
+}
+
+
+
+@media only screen and (max-width: 75rem) {
+  .course_webpage,
+  .special_bar {
+    width: 70%;
+  }
+
+  .course_description_box {
+    width: 43.75rem;
+
+    .video_part,
+    .content_part {
+      width: auto;
+    }
+
+    .special_bar {
+      .discount_percentage {
+        font-size: 1.2rem;
+        margin-left: 3rem;
+        margin-top: 1.25rem;
+        height: max-content;
+        padding: 1% 2%;
+        border-radius: 1.25rem;
+        background-color: #46b284;
+        color: white;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 46.875rem) {
+  .course_description_box {
+    width: 31.25rem;
+  }
+}
+
+@media only screen and (max-width: 34.375rem) {
+  .course_description_box {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 25rem) {
+  .course_description_box {
+    width: 18.75rem;
+  }
+}

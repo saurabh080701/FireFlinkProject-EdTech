@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 import { TfiCheckBox } from "react-icons/tfi";
 import Login from './Login';
+import { useNavigate } from 'react-router-dom';
 
 type RegistrationFormData = {
   firstName: string;
@@ -14,6 +14,7 @@ type RegistrationFormData = {
 }
 
 const Register: React.FC = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState<RegistrationFormData>({
     firstName: '',
     lastName: '',
@@ -21,6 +22,7 @@ const Register: React.FC = () => {
     password: '',
   });
   const [registered, setRegistered] = useState(false);
+  const [showRegistration, setShowRegistration] = useState(false); 
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -46,7 +48,15 @@ const Register: React.FC = () => {
   };
 
   if (registered) {
-    return <Login />;
+    toast.success('Register successfull!');
+    navigate('/login')
+  }
+  const handleCreateAccountClick = () => {
+    setShowRegistration(true); 
+  };
+  if (showRegistration) {
+    toast.success('Rgister successful!');
+    navigate('/login');
   }
 
   return (
@@ -64,6 +74,7 @@ const Register: React.FC = () => {
       <div className="registration-container">
         <h2>Registration</h2>
         <form onSubmit={handleSubmit} className="registration-form">
+          <div className='first-Last'>
           <div className="form-group">
             <label htmlFor="firstName">First Name</label>
             <input
@@ -87,6 +98,7 @@ const Register: React.FC = () => {
               className="form-control"
               required
             />
+          </div>
           </div>
           <div className="form-group">
             <label htmlFor="email">Email</label>
@@ -114,6 +126,9 @@ const Register: React.FC = () => {
           </div>
           <button type="submit" className="btn btn-primary">Register</button>
         </form>
+        <div className='Create-account'>
+          <p><span className="link" onClick={handleCreateAccountClick}>Back to Login Page</span></p>
+        </div>
         <ToastContainer />
       </div>
     </div>

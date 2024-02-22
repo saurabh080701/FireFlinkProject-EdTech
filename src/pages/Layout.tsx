@@ -1,14 +1,12 @@
-import React from 'react'
-import Home from './Home'
-import SupportPage from './SupportPage'
-import Login from './Login'
+
+import { Outlet } from 'react-router-dom'
+import CustomSpeedDial from '../components/MuiSpeedDial'
 
 const Layout = () => {
   return (
     <>
-        {/* <Home/> */}
-        <SupportPage />
-        {/* <Login /> */}
+    {/* <CustomSpeedDial /> */}
+        <Outlet />
     </>
   )
 }
