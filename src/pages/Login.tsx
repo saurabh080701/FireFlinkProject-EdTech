@@ -1,58 +1,50 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React, { useContext, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { TfiCheckBox } from "react-icons/tfi";
 import { useNavigate } from 'react-router-dom';
+import { UserContextApi } from '../Context/AuthContext';
+import { UsersContextApi } from '../Context/UserContext';
+import { TfiCheckBox } from 'react-icons/tfi';
+import { Link } from 'react-router-dom';
+
 type LoginFormData = {
   email: string;
   password: string;
 }
 
-const Login: React.FC = () => {
-
+const Login = () => {
+  const contextValue = useContext(UserContextApi)
   const navigate = useNavigate();
+  const signIn = contextValue?.signIn;
+  const data = useContext(UsersContextApi)
+  const users = data?.userData;
   const [formData, setFormData] = useState<LoginFormData>({
     email: '',
     password: '',
   });
-  const [showRegistration, setShowRegistration] = useState(false); 
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    try {
-      const response = await axios.get('http://localhost:5000/users');
-      const userData = response.data;
-      const foundUser = userData.find((user: any) => user.email === formData.email && user.password === formData.password);
-      if (foundUser) {
-        toast.success('Login successful!');
-        setFormData({
-          email: '',
-          password: '',
-        });
-        navigate('/');
-      } else {
-        toast.error('Invalid email or password. Please try again.');
+      if(signIn){
+        try{
+          if(users){
+            const founduser=signIn(formData,users)
+            if(founduser){
+              console.log("login succesfully")
+              toast.success("logged in sucsessfully");
+              navigate('/')
+            }else {
+              toast.error('Incorrect email or password');
+            }
+        }}catch (error) {
+          console.error('Error occurred during login:', error);
+          toast.error('An unexpected error occurred. Please try again later.');
+        }
       }
-    } catch (error) {
-      console.error('Error logging in:', error);
-      toast.error('Login failed. Please try again.');
     }
-  };
-
-  const handleCreateAccountClick = () => {
-    setShowRegistration(true); 
-  };
-
-  if (showRegistration) {
-    navigate('/register')
-  }
-
   return (
     <div className='parentlogin-container'>
       <div className='image-container'>
@@ -96,10 +88,11 @@ const Login: React.FC = () => {
           <button type="submit" className="btn btn-primary">Login</button>
         </form>
         <div className='Create-account'>
-          <p>Don't have an account? <span className="link" onClick={handleCreateAccountClick}>Create an account</span></p>
+          <p>Don't have an account? <Link className="link"  to={'/register'} >Create an account</Link></p>
         </div>
       </div>
       <ToastContainer />
+
     </div>
   );
 };

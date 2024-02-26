@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Layout from './pages/Layout';
+import PrivateRoute from './Routes/PrivateRoute';
+// import PublicRoute from './Routes/PublicRoutes';
 
 const App = () => {
 
@@ -27,11 +29,15 @@ const App = () => {
       },
       {
           path: "/courseDetails/:id",
-          element: <CourseDetails />
+          element:
+          <PrivateRoute>
+            <CourseDetails />
+          </PrivateRoute>
       },
       {
         path: "/support",
-        element: <SupportPage />  ,
+        element:
+        <PrivateRoute><SupportPage /> </PrivateRoute>  ,
       }
     ]},
   ])

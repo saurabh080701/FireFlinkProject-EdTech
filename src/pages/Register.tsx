@@ -1,28 +1,23 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React, { useContext, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { TfiCheckBox } from "react-icons/tfi";
-import Login from './Login';
 import { useNavigate } from 'react-router-dom';
+import { PayloadProps } from '../components/type/PayloadType';
+import { UserContextApi } from '../Context/AuthContext';
+import { Link } from 'react-router-dom';
 
-type RegistrationFormData = {
-  firstName: string;
-  lastName: string;
-  email: string;
-  password: string;
-}
 
 const Register: React.FC = () => {
+  const contextValue = useContext(UserContextApi)
+  const signup = contextValue?.signup;
+  
   const navigate = useNavigate();
-  const [formData, setFormData] = useState<RegistrationFormData>({
+  const [formData, setFormData] = useState<PayloadProps>({
     firstName: '',
     lastName: '',
     email: '',
     password: '',
   });
-  const [registered, setRegistered] = useState(false);
-  const [showRegistration, setShowRegistration] = useState(false); 
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -31,33 +26,13 @@ const Register: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    try {
-      await axios.post('http://localhost:5000/users', formData);
-      toast.success('Registration successful!');
-      setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        password: '',
-      });
-      setRegistered(true); 
-    } catch (error) {
-      console.error('Error registering user:', error);
-      toast.error('Registration failed. Please try again later.');
+    if(signup){
+      signup(formData)
+      toast.success('Register successfull!');
+      navigate('/login')
     }
   };
 
-  if (registered) {
-    toast.success('Register successfull!');
-    navigate('/login')
-  }
-  const handleCreateAccountClick = () => {
-    setShowRegistration(true); 
-  };
-  if (showRegistration) {
-    toast.success('Rgister successful!');
-    navigate('/login');
-  }
 
   return (
     <div className='registration-main-container'>
@@ -127,7 +102,11 @@ const Register: React.FC = () => {
           <button type="submit" className="btn btn-primary">Register</button>
         </form>
         <div className='Create-account'>
-          <p><span className="link" onClick={handleCreateAccountClick}>Back to Login Page</span></p>
+          <p>
+            <Link to={'/login'}>
+            <span className="link" >Back to Login Page</span>
+            </Link>
+            </p>
         </div>
         <ToastContainer />
       </div>

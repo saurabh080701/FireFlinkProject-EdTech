@@ -29,7 +29,7 @@ const FeedBack: React.FC<FeedBackProps> = ({ handleButtonClick }) => {
                     </Button>
                 </>
             ) : (
-                <Typography>Thank you</Typography>
+                <Typography>Thank you for the Feedback!</Typography>
             )}
         </Stack>
     );

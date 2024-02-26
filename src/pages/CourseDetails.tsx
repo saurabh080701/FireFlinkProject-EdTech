@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import data from '../../backend/courseDetails.json'
 import CoursePurchase from '../components/CoursePurchase/CoursePurchase';
 import NavigationBar from '../components/NavigationBar';
+import Footer from '../components/Footer';
 
 
 const CourseDetails = () => {
@@ -13,6 +14,7 @@ const CourseDetails = () => {
     <div className="app">
       <NavigationBar />
       <CoursePurchase datas={data.courses[`${courseId-1}`] }/>
+      <Footer />
     </div>
   );
 };

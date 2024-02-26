@@ -66,7 +66,9 @@ export const Navbar = () => {
                             aria-controls={open ? 'resources-menu' : undefined}
                             endIcon={<KeyboardArrowDownIcon />}>All Courses</Button>
                         <Button color="inherit" startIcon={<ShoppingCartOutlinedIcon />}>PW Store </Button>
+                        <Link to={'/login'}>
                         <button style={{ padding: '0.8rem', fontSize: '1rem'  }}>Login/Register</button>
+                        </Link>
                     </Stack>
                     <Menu id='resources-button' anchorEl={anchorEl} open={open}
                         MenuListProps={{

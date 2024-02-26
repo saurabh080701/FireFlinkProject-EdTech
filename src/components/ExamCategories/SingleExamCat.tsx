@@ -14,7 +14,7 @@ export type Exam = {
 };
 
 const SingleExamCat = ( { exam , divStyle}: Exam) => {
-  console.log(exam);
+  // console.log(exam);
   
   return (
     <div className='singleExamDetailCard'>
