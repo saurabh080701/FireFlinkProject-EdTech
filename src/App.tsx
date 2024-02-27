@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Layout from './pages/Layout';
 import PrivateRoute from './Routes/PrivateRoute';
+import NotFound from './components/NotFound';
 // import PublicRoute from './Routes/PublicRoutes';
 
 const App = () => {
@@ -40,6 +41,10 @@ const App = () => {
         <PrivateRoute><SupportPage /> </PrivateRoute>  ,
       }
     ]},
+    {
+      path: '*',
+      element: <NotFound />
+    }
   ])
 
   return (

@@ -233,8 +233,9 @@
                 }
             ]
         },
+
         {
-            "id": 2,
+            "id": 1,
             "page_Title": "IIT JEE",
             "description": "The IIT JEE Online Coaching is best for your IIT JEE Exam preparation. Physics Wallah comes up with the best JEE online coaching for aspirants. The PW JEE Online Coaching Program provides students with the best and most affordable courses. The best faculty for the NEET Exam is there for you with the best online courses for the JEE. The live and affordable JEE online coaching will prepare you for the most renounced medical exam.",
             "micro_videos": [{
@@ -242,8 +243,8 @@
                     "course_Name": "PHYSICS - [NEET BATCH-2024]",
                     "special_Discount_Price": 999,
                     "actual_Price": 2000,
-                    "video_link": "../../public/assests/siddhu.mp4",
-                    "img_link": "../../public/assests/Images/sidhusidhu.jpg",
+                    "video_link": "../public/CourseVideos/1.mp4",
+                    "img_link": "../public/CourseImages/1.jpeg",
                     "Batch_details": [{
                             "qns": "Who should join this batch?",
                             "ans": "This batch is for students who is targeting the NEET Exam [ PHYSICS]"
@@ -288,8 +289,8 @@
                     "course_Name": "CHEMISTRY - [NEET BATCH -2024]",
                     "special_Discount_Price": 799,
                     "actual_Price": 1600,
-                    "video_link": "../../public/assests/One Love Song Ringtone - Shubh.mp4",
-                    "img_link": "../../public/assests/Images/shubhshubh.jpg",
+                    "video_link": "../public/CourseVideos/2.mp4",
+                    "img_link": "../public/CourseImages/2.png",
                     "Batch_details": [{
                             "qns": "Who should join this batch?",
                             "ans": "This batch is for students who is targeting the NEET Exam [CHEMISTRY]"
@@ -334,8 +335,98 @@
                     "course_Name": "BIOLOGY - [NEET BATCH - 2024]",
                     "special_Discount_Price": 1999,
                     "actual_Price": 4000,
-                    "video_link": "../../public/assests/8 Parche Ringtone mp3 _ New Punjabi Song Ringtone Parche _ Download Punjabi Ringtone.mp4",
-                    "img_link": "../../public/assests/Images/baani.jpg",
+                    "video_link": "../public/CourseVideos/3.mp4",
+                    "img_link": "../public/CourseImages/3.jpg",
+                    "Batch_details": [{
+                            "qns": "Who should join this batch?",
+                            "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                        },
+                        {
+                            "qns": "When will the course be completed?",
+                            "ans": "March 28"
+                        },
+                        {
+                            "qns": "Is this batch FREE or PAID?",
+                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                        },
+                        {
+                            "qns": "Will classes be live or recorded?",
+                            "ans": "Classes will be Live and recorded both of you can access them."
+                        },
+                        {
+                            "qns": "Classes will stream on which channel?",
+                            "ans": "PW app."
+                        },
+                        {
+                            "qns": "How to get Lecture Notes?",
+                            "ans": "These will be available under the Classroom Section of the batch in PW App"
+                        },
+                        {
+                            "qns": "In which language the class notes will be provided?",
+                            "ans": "Class notes will provide you with the English and Hindi language."
+                        },
+                        {
+                            "qns": "For any query how to contact?",
+                            "ans": "For Any query contact us at 7019243492."
+                        },
+                        {
+                            "qns": "Can I get a refund after the batch purchase?",
+                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "course_Name": "BOTANY - [NEET BATCH - 2024]",
+                    "special_Discount_Price": 1999,
+                    "actual_Price": 4000,
+                    "video_link": "../public/CourseVideos/4.mp4",
+                    "img_link": "../public/CourseImages/4.png",
+                    "Batch_details": [{
+                            "qns": "Who should join this batch?",
+                            "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                        },
+                        {
+                            "qns": "When will the course be completed?",
+                            "ans": "March 28"
+                        },
+                        {
+                            "qns": "Is this batch FREE or PAID?",
+                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                        },
+                        {
+                            "qns": "Will classes be live or recorded?",
+                            "ans": "Classes will be Live and recorded both of you can access them."
+                        },
+                        {
+                            "qns": "Classes will stream on which channel?",
+                            "ans": "PW app."
+                        },
+                        {
+                            "qns": "How to get Lecture Notes?",
+                            "ans": "These will be available under the Classroom Section of the batch in PW App"
+                        },
+                        {
+                            "qns": "In which language the class notes will be provided?",
+                            "ans": "Class notes will provide you with the English and Hindi language."
+                        },
+                        {
+                            "qns": "For any query how to contact?",
+                            "ans": "For Any query contact us at 7019243492."
+                        },
+                        {
+                            "qns": "Can I get a refund after the batch purchase?",
+                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "course_Name": "BIO-CHEMISTRY - [NEET BATCH - 2024]",
+                    "special_Discount_Price": 1999,
+                    "actual_Price": 4000,
+                    "video_link": "../public/CourseVideos/5.mp4",
+                    "img_link": "../public/CourseImages/5.png",
                     "Batch_details": [{
                             "qns": "Who should join this batch?",
                             "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
@@ -374,6 +465,7 @@
                         }
                     ]
                 }
+                
             ]
         },
         {
@@ -381,142 +473,232 @@
             "page_Title": "School Preparation",
             "description": "The School Preparation Online Coaching is best for your School Exams preparation. Physics Wallah comes up with the best School clases online coaching for aspirants. The PW JEE Online Coaching Program provides students with the best and most affordable courses. The best faculty for the NEET Exam is there for you with the best online courses for the JEE. The live and affordable JEE online coaching will prepare you for the most renounced medical exam.",
             "micro_videos": [{
-                    "id": 1,
-                    "course_Name": "PHYSICS - [NEET BATCH-2024]",
-                    "special_Discount_Price": 999,
-                    "actual_Price": 2000,
-                    "video_link": "../../public/assests/siddhu.mp4",
-                    "img_link": "../../public/assests/Images/sidhusidhu.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the NEET Exam [ PHYSICS]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+                "id": 1,
+                "course_Name": "PHYSICS - [NEET BATCH-2024]",
+                "special_Discount_Price": 999,
+                "actual_Price": 2000,
+                "video_link": "../public/CourseVideos/1.mp4",
+                "img_link": "../public/CourseImages/1.jpeg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [ PHYSICS]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-                },
-                {
-                    "id": 2,
-                    "course_Name": "CHEMISTRY - [NEET BATCH -2024]",
-                    "special_Discount_Price": 799,
-                    "actual_Price": 1600,
-                    "video_link": "../../public/assests/One Love Song Ringtone - Shubh.mp4",
-                    "img_link": "../../public/assests/Images/shubhshubh.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the NEET Exam [CHEMISTRY]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+            },
+            {
+                "id": 2,
+                "course_Name": "CHEMISTRY - [NEET BATCH -2024]",
+                "special_Discount_Price": 799,
+                "actual_Price": 1600,
+                "video_link": "../public/CourseVideos/2.mp4",
+                "img_link": "../public/CourseImages/2.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [CHEMISTRY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-                },
-                {
-                    "id": 3,
-                    "course_Name": "BIOLOGY - [NEET BATCH - 2024]",
-                    "special_Discount_Price": 1999,
-                    "actual_Price": 4000,
-                    "video_link": "../../public/assests/8 Parche Ringtone mp3 _ New Punjabi Song Ringtone Parche _ Download Punjabi Ringtone.mp4",
-                    "img_link": "../../public/assests/Images/baani.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
-                }
+            },
+            {
+                "id": 3,
+                "course_Name": "BIOLOGY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/3.mp4",
+                "img_link": "../public/CourseImages/3.jpg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "course_Name": "BOTANY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/4.mp4",
+                "img_link": "../public/CourseImages/4.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "course_Name": "BIO-CHEMISTRY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/5.mp4",
+                "img_link": "../public/CourseImages/5.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            }
             ]
         },
         {
@@ -524,144 +706,232 @@
             "page_Title": "Govt Job Exams",
             "description": "The RAILWAY Online Coaching is best for your RAILWAY Exam preparation. Physics Wallah comes up with the best RAILWAY online coaching for aspirants. The PW RAILWAY Online Coaching Program provides students with the best and most affordable courses. The best faculty for the RAILWAY Exam is there for you with the best online courses for the RAILWAY. The live and affordable RAILWAY online coaching will prepare you for the most renounced RRB exam.",
             "micro_videos": [{
-                    "id": 1,
-                    "course_Name": "APTITUDE - [CENTRAL INDIAN PAPER STANDARD]",
-                    "special_Discount_Price": 1100,
-                    "actual_Price": 2000,
-                    "video_link": "../../public/assests/siddhu.mp4",
-                    "img_link": "../../public/assests/Images/sidhusidhu.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the RAILWAY Exam [APTITUDE]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+                "id": 1,
+                "course_Name": "PHYSICS - [NEET BATCH-2024]",
+                "special_Discount_Price": 999,
+                "actual_Price": 2000,
+                "video_link": "../public/CourseVideos/1.mp4",
+                "img_link": "../public/CourseImages/1.jpeg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [ PHYSICS]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-                },
-                {
-                    "id": 2,
-                    "course_Name": "REASONING [CENTRAL INDIAN PAPER STANDARD]",
-                    "special_Discount_Price": 1099,
-                    "actual_Price": 1600,
-                    "video_link": "../../public/assests/One Love Song Ringtone - Shubh.mp4",
-                    "img_link": "../../public/assests/Images/shubhshubh.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the RAILWAY Exam[REASONING]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+            },
+            {
+                "id": 2,
+                "course_Name": "CHEMISTRY - [NEET BATCH -2024]",
+                "special_Discount_Price": 799,
+                "actual_Price": 1600,
+                "video_link": "../public/CourseVideos/2.mp4",
+                "img_link": "../public/CourseImages/2.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [CHEMISTRY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-
-                },
-                {
-                    "id": 3,
-                    "course_Name": "GENERAL AWARENESS [CENTRAL PAPER STANDARD]",
-                    "special_Discount_Price": 1599,
-                    "actual_Price": 4000,
-                    "video_link": "../../public/assests/8 Parche Ringtone mp3 _ New Punjabi Song Ringtone Parche _ Download Punjabi Ringtone.mp4",
-                    "img_link": "../../public/assests/Images/baani.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the RAILWAY Exam [GENERAL AWARENESS]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
-
-                }
+            },
+            {
+                "id": 3,
+                "course_Name": "BIOLOGY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/3.mp4",
+                "img_link": "../public/CourseImages/3.jpg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "course_Name": "BOTANY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/4.mp4",
+                "img_link": "../public/CourseImages/4.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "course_Name": "BIO-CHEMISTRY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/5.mp4",
+                "img_link": "../public/CourseImages/5.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            }
             ]
         },
         {
@@ -669,144 +939,232 @@
             "page_Title": "Defence",
             "description": "The RAILWAY Online Coaching is best for your RAILWAY Exam preparation. Physics Wallah comes up with the best RAILWAY online coaching for aspirants. The PW RAILWAY Online Coaching Program provides students with the best and most affordable courses. The best faculty for the RAILWAY Exam is there for you with the best online courses for the RAILWAY. The live and affordable RAILWAY online coaching will prepare you for the most renounced RRB exam.",
             "micro_videos": [{
-                    "id": 1,
-                    "course_Name": "APTITUDE - [CENTRAL INDIAN PAPER STANDARD]",
-                    "special_Discount_Price": 1100,
-                    "actual_Price": 2000,
-                    "video_link": "../../public/assests/siddhu.mp4",
-                    "img_link": "../../public/assests/Images/sidhusidhu.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the RAILWAY Exam [APTITUDE]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+                "id": 1,
+                "course_Name": "PHYSICS - [NEET BATCH-2024]",
+                "special_Discount_Price": 999,
+                "actual_Price": 2000,
+                "video_link": "../public/CourseVideos/1.mp4",
+                "img_link": "../public/CourseImages/1.jpeg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [ PHYSICS]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-                },
-                {
-                    "id": 2,
-                    "course_Name": "REASONING [CENTRAL INDIAN PAPER STANDARD]",
-                    "special_Discount_Price": 1099,
-                    "actual_Price": 1600,
-                    "video_link": "../../public/assests/One Love Song Ringtone - Shubh.mp4",
-                    "img_link": "../../public/assests/Images/shubhshubh.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the RAILWAY Exam[REASONING]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+            },
+            {
+                "id": 2,
+                "course_Name": "CHEMISTRY - [NEET BATCH -2024]",
+                "special_Discount_Price": 799,
+                "actual_Price": 1600,
+                "video_link": "../public/CourseVideos/2.mp4",
+                "img_link": "../public/CourseImages/2.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [CHEMISTRY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-
-                },
-                {
-                    "id": 3,
-                    "course_Name": "GENERAL AWARENESS [CENTRAL PAPER STANDARD]",
-                    "special_Discount_Price": 1599,
-                    "actual_Price": 4000,
-                    "video_link": "../../public/assests/8 Parche Ringtone mp3 _ New Punjabi Song Ringtone Parche _ Download Punjabi Ringtone.mp4",
-                    "img_link": "../../public/assests/Images/baani.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the RAILWAY Exam [GENERAL AWARENESS]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
-
-                }
+            },
+            {
+                "id": 3,
+                "course_Name": "BIOLOGY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/3.mp4",
+                "img_link": "../public/CourseImages/3.jpg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "course_Name": "BOTANY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/4.mp4",
+                "img_link": "../public/CourseImages/4.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "course_Name": "BIO-CHEMISTRY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/5.mp4",
+                "img_link": "../public/CourseImages/5.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            }
             ]
         },
         {
@@ -814,144 +1172,232 @@
             "page_Title": "CA",
             "description": "The BANKING Online Coaching is best for your  BANKING xam preparation. Physics Wallah comes up with the best BANKING online coaching for aspirants. The PW BANKING Online Coaching Program provides students with the best and most affordable courses. The best faculty for the BANKING Exam is there for you with the best online courses for the BANKING. The live and affordable BANKING online coaching will prepare you for the most renounced Banker's exam.",
             "micro_videos": [{
-                    "id": 1,
-                    "course_Name": "APTITUDE [CENTRAL & STATE LEVEL STANDARD]",
-                    "special_Discount_Price": 199,
-                    "actual_Price": 2000,
-                    "video_link": "../../public/assests/siddhu.mp4",
-                    "img_link": "../../public/assests/Images/sidhusidhu.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the BANKING Exam [APTITUDE]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+                "id": 1,
+                "course_Name": "PHYSICS - [NEET BATCH-2024]",
+                "special_Discount_Price": 999,
+                "actual_Price": 2000,
+                "video_link": "../public/CourseVideos/1.mp4",
+                "img_link": "../public/CourseImages/1.jpeg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [ PHYSICS]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-                },
-                {
-                    "id": 2,
-                    "course_Name": "ENGLISH [CENTRAL  LEVEL STANDARD]",
-                    "special_Discount_Price": 799,
-                    "actual_Price": 1600,
-                    "video_link": "../../public/assests/One Love Song Ringtone - Shubh.mp4",
-                    "img_link": "../../public/assests/Images/shubhshubh.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the  BANKING Exam [CHEMISTRY]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+            },
+            {
+                "id": 2,
+                "course_Name": "CHEMISTRY - [NEET BATCH -2024]",
+                "special_Discount_Price": 799,
+                "actual_Price": 1600,
+                "video_link": "../public/CourseVideos/2.mp4",
+                "img_link": "../public/CourseImages/2.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [CHEMISTRY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-
-                },
-                {
-                    "id": 3,
-                    "course_Name": "REASONING [CENTRAL & STATE LEVEL STANDARD]",
-                    "special_Discount_Price": 2500,
-                    "actual_Price": 4000,
-                    "video_link": "../../public/assests/8 Parche Ringtone mp3 _ New Punjabi Song Ringtone Parche _ Download Punjabi Ringtone.mp4",
-                    "img_link": "../../public/assests/Images/baani.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the  BANKING Exam[REASONING]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
-
-                }
+            },
+            {
+                "id": 3,
+                "course_Name": "BIOLOGY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/3.mp4",
+                "img_link": "../public/CourseImages/3.jpg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "course_Name": "BOTANY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/4.mp4",
+                "img_link": "../public/CourseImages/4.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "course_Name": "BIO-CHEMISTRY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/5.mp4",
+                "img_link": "../public/CourseImages/5.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            }
             ]
         },
         {
@@ -959,144 +1405,232 @@
             "page_Title": "MBA",
             "description": "The BANKING Online Coaching is best for your  BANKING xam preparation. Physics Wallah comes up with the best BANKING online coaching for aspirants. The PW BANKING Online Coaching Program provides students with the best and most affordable courses. The best faculty for the BANKING Exam is there for you with the best online courses for the BANKING. The live and affordable BANKING online coaching will prepare you for the most renounced Banker's exam.",
             "micro_videos": [{
-                    "id": 1,
-                    "course_Name": "APTITUDE [CENTRAL & STATE LEVEL STANDARD]",
-                    "special_Discount_Price": 199,
-                    "actual_Price": 2000,
-                    "video_link": "../../public/assests/siddhu.mp4",
-                    "img_link": "../../public/assests/Images/sidhusidhu.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the BANKING Exam [APTITUDE]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+                "id": 1,
+                "course_Name": "PHYSICS - [NEET BATCH-2024]",
+                "special_Discount_Price": 999,
+                "actual_Price": 2000,
+                "video_link": "../public/CourseVideos/1.mp4",
+                "img_link": "../public/CourseImages/1.jpeg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [ PHYSICS]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-                },
-                {
-                    "id": 2,
-                    "course_Name": "ENGLISH [CENTRAL  LEVEL STANDARD]",
-                    "special_Discount_Price": 799,
-                    "actual_Price": 1600,
-                    "video_link": "../../public/assests/One Love Song Ringtone - Shubh.mp4",
-                    "img_link": "../../public/assests/Images/shubhshubh.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the  BANKING Exam [CHEMISTRY]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
+            },
+            {
+                "id": 2,
+                "course_Name": "CHEMISTRY - [NEET BATCH -2024]",
+                "special_Discount_Price": 799,
+                "actual_Price": 1600,
+                "video_link": "../public/CourseVideos/2.mp4",
+                "img_link": "../public/CourseImages/2.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [CHEMISTRY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
 
-
-                },
-                {
-                    "id": 3,
-                    "course_Name": "REASONING [CENTRAL & STATE LEVEL STANDARD]",
-                    "special_Discount_Price": 2500,
-                    "actual_Price": 4000,
-                    "video_link": "../../public/assests/8 Parche Ringtone mp3 _ New Punjabi Song Ringtone Parche _ Download Punjabi Ringtone.mp4",
-                    "img_link": "../../public/assests/Images/baani.jpg",
-                    "Batch_details": [{
-                            "qns": "Who should join this batch?",
-                            "ans": "This batch is for students who is targeting the  BANKING Exam[REASONING]"
-                        },
-                        {
-                            "qns": "When will the course be completed?",
-                            "ans": "March 28"
-                        },
-                        {
-                            "qns": "Is this batch FREE or PAID?",
-                            "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
-                        },
-                        {
-                            "qns": "Will classes be live or recorded?",
-                            "ans": "Classes will be Live and recorded both of you can access them."
-                        },
-                        {
-                            "qns": "Classes will stream on which channel?",
-                            "ans": "PW app."
-                        },
-                        {
-                            "qns": "How to get Lecture Notes?",
-                            "ans": "These will be available under the Classroom Section of the batch in PW App"
-                        },
-                        {
-                            "qns": "In which language the class notes will be provided?",
-                            "ans": "Class notes will provide you with the English and Hindi language."
-                        },
-                        {
-                            "qns": "For any query how to contact?",
-                            "ans": "For Any query contact us at 7019243492."
-                        },
-                        {
-                            "qns": "Can I get a refund after the batch purchase?",
-                            "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
-                        }
-                    ]
-
-                }
+            },
+            {
+                "id": 3,
+                "course_Name": "BIOLOGY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/3.mp4",
+                "img_link": "../public/CourseImages/3.jpg",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "course_Name": "BOTANY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/4.mp4",
+                "img_link": "../public/CourseImages/4.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "course_Name": "BIO-CHEMISTRY - [NEET BATCH - 2024]",
+                "special_Discount_Price": 1999,
+                "actual_Price": 4000,
+                "video_link": "../public/CourseVideos/5.mp4",
+                "img_link": "../public/CourseImages/5.png",
+                "Batch_details": [{
+                        "qns": "Who should join this batch?",
+                        "ans": "This batch is for students who is targeting the NEET Exam [BIOLOGY]"
+                    },
+                    {
+                        "qns": "When will the course be completed?",
+                        "ans": "March 28"
+                    },
+                    {
+                        "qns": "Is this batch FREE or PAID?",
+                        "ans": "This is a Paid batch. You need to click on the “BUY NOW” option to get this batch on the PW App."
+                    },
+                    {
+                        "qns": "Will classes be live or recorded?",
+                        "ans": "Classes will be Live and recorded both of you can access them."
+                    },
+                    {
+                        "qns": "Classes will stream on which channel?",
+                        "ans": "PW app."
+                    },
+                    {
+                        "qns": "How to get Lecture Notes?",
+                        "ans": "These will be available under the Classroom Section of the batch in PW App"
+                    },
+                    {
+                        "qns": "In which language the class notes will be provided?",
+                        "ans": "Class notes will provide you with the English and Hindi language."
+                    },
+                    {
+                        "qns": "For any query how to contact?",
+                        "ans": "For Any query contact us at 7019243492."
+                    },
+                    {
+                        "qns": "Can I get a refund after the batch purchase?",
+                        "ans": "Dear student, a refund after batch purchase is not allowed as we have already invested a lot in providing the best learning experience to our loving students regarding tech infrastructure, employee salary, etc. Please make a conscious decision before purchasing a batch"
+                    }
+                ]
+            }
             ]
         }
     ]

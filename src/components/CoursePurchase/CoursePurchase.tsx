@@ -1,6 +1,5 @@
 
 import Video from "./CourseVideos";
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Accordion,AccordionDetails,AccordionSummary } from "@mui/material";
 type DataVideo = {
   datas: {

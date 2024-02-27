@@ -3,12 +3,18 @@ import React, { useState } from "react";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 export const Navbar = () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
     const open = Boolean(anchorEl);
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => setAnchorEl(event.currentTarget);
     const handleClose = () => setAnchorEl(null);
+    
+    const handleLogout = () => {
+        window.localStorage.removeItem("name");
+        toast.success("logout Succesfully")
+      };
 
     return (
         <div>
@@ -66,8 +72,7 @@ export const Navbar = () => {
                             aria-controls={open ? 'resources-menu' : undefined}
                             endIcon={<KeyboardArrowDownIcon />}>All Courses</Button>
                         <Button color="inherit" startIcon={<ShoppingCartOutlinedIcon />}>PW Store </Button>
-                        <Link to={'/login'}>
-                        <button style={{ padding: '0.8rem', fontSize: '1rem'  }}>Login/Register</button>
+                        <Link to="/"><button style={{ padding: '0.8rem', fontSize: '1rem'}} onClick={handleLogout}>Logout</button>
                         </Link>
                     </Stack>
                     <Menu id='resources-button' anchorEl={anchorEl} open={open}
