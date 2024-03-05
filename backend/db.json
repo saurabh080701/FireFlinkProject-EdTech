@@ -87,6 +87,13 @@
       "lastName": "Arora",
       "email": "chirag@gmail.com",
       "password": "qwertyuiop"
+    },
+    {
+      "id": "fb2a",
+      "firstName": "chirag",
+      "lastName": "arora",
+      "email": "imran@gmail.com",
+      "password": "1234567890"
     }
   ]
 }

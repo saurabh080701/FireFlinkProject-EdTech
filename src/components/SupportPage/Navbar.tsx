@@ -31,16 +31,15 @@ export const Navbar = () => {
                     '@media (max-width: 800px)': {
                         height: 'auto',
                         flexDirection: 'column',
-                        fontSize: '0.5rem',
+                        // fontSize: '0.5rem',
                         alignItems: 'center',
-                        padding: '0'
+                        padding: '10px',
+                    
                     }
                     ,'@media (max-width: 400px)': {
                       height: 'auto',
-                      flexDirection: 'column',
-                      alignItems: 'center',
                       fontSize: '0.2rem',
-                      padding: '20px',
+                      padding: '5px',
                   }
                 }}>
                     <Stack direction='row' spacing={2} alignItems='center' justifyContent={'space-evenly'} flexBasis={'50%'}>

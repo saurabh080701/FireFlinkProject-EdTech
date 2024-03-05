@@ -29,7 +29,7 @@ const Banner = () => {
             <div>
                 <img src={bancon2} alt="" />
                 <h2>10 Million +</h2>
-                <p>Tests, sample papers & notes</p>
+                <p>Tests & sample papers </p>
             </div>
             <div>
                 <img src={bancon3} alt="" />

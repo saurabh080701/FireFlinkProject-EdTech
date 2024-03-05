@@ -6,10 +6,10 @@ const SearchBar = () => {
         <div className="search">
             <h1 className='helpCenter'>Help Center</h1>
             <div className="search-container">
-              <span>
+              <span className='searchIcon'>
                 <SearchOutlinedIcon  />
               </span>
-              <input type="text" placeholder="Search..."></input>
+              <input className='searchCont' type="text" placeholder="Search..."></input>
             </div>
           </div>
     </div>

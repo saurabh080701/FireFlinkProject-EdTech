@@ -1,99 +1,98 @@
-
 [
-    {
-      "id": 1,
-      "exam_category": "NEET",
-      "types_of_exams": ["class 11", "class 12", "Dropper"],
-      "image": "Neet.webp"
-    },
-    {
-      "id": 2,
-      "exam_category": "IIT JEE",
-      "types_of_exams": ["class 11", "class 12", "Dropper"],
-      "image": "exam (8).webp"
-    },
-    {
-      "id": 3,
-      "exam_category": "School Preparation",
-      "types_of_exams": ["class 7", "class 8","class 9","class 10"],
-      "image": "exam (13).webp"
-    },
-    {
-      "id": 4,
-        "exam_category": "Govt Job Exams",
-        "types_of_exams": ["SSC", "Banking", "Teaching" , "Judiciary"],
-        "image": "exam (1).webp"
-      },
-      {
-        "id": 5,
-        "exam_category": "Defence",
-        "types_of_exams": ["NDA", "CDS", "AFCAT" , "Agniveer"],
-        "image": "exam (5).webp"
-      },
-      {
-        "id": 6,
-        "exam_category": "CA",
-        "types_of_exams": ["Foundation", "Intermediate"],
-        "image": "exam (11).webp"
-      },
-      {
-        "id": 7,
-        "exam_category": "MBA",
-        "image": "exam (9).webp"
-      },
-      {
-        "id": 8,
-        "exam_category": "State PCS",
-        "image": "exam (15).webp"
-      },
-      {
-        "id": 9,
-        "exam_category": "Commerce",
-        "image": "exam (10).webp"
-      },
-      {
-        "id": 10,
-        "exam_category": "GATE",
-        "image": "exam (7).webp"
-      },
-      {
-        "id": 11,
-        "exam_category": "CUET",
-        "image": "exam (2).webp"
-      },
-      {
-        "id": 12,
-        "exam_category": "AE/JE",
-        "image": "exam (17).webp"
-      },
-      {
-        "id": 13,
-        "exam_category": "IIT JAM & CSIR NET",
-        "image": "exam (3).webp"
-      },
-      {
-        "id": 14,
-        "exam_category": "LAW",
-        "image": "exam (12).webp"
-      },
-      {
-        "id": 15,
-        "exam_category": "ESE GATE",
-        "image": "exam (14).webp"
-      },
-      {
-        "id": 16,
-        "exam_category": "IPMAT",
-        "image": "exam (6).webp"
-      },
-      {
-        "id": 17,
-        "exam_category": "UPSC",
-        "image": "exam (16).webp"
-      },
-      {
-        "id": 18,
-        "exam_category": "IELTS",
-        "image": "exam (4).webp"
-      }
-  ]
+  {
+    "id": 1,
+    "exam_category": "NEET",
+    "types_of_exams": ["class 11", "class 12", "Dropper"],
+    "image": "Neet.webp"
+  },
+  {
+    "id": 2,
+    "exam_category": "IIT JEE",
+    "types_of_exams": ["class 11", "class 12", "Dropper"],
+    "image": "exam (8).webp"
+  },
+  {
+    "id": 3,
+    "exam_category": "School Preparation",
+    "types_of_exams": ["class 6", "class 7", "class 8", "class 10"],
+    "image": "exam (13).webp"
+  },
+  {
+    "id": 4,
+    "exam_category": "Govt Job Exams",
+    "types_of_exams": ["SSC", "Banking", "Teaching", "Judiciary"],
+    "image": "exam (1).webp"
+  },
+  {
+    "id": 5,
+    "exam_category": "Defence",
+    "types_of_exams": ["NDA", "CDS", "AFCAT", "Agniveer"],
+    "image": "exam (5).webp"
+  },
+  {
+    "id": 6,
+    "exam_category": "CA",
+    "types_of_exams": ["Foundation", "Intermediate"],
+    "image": "exam (11).webp"
+  },
+  {
+    "id": 7,
+    "exam_category": "MBA",
+    "image": "exam (9).webp"
+  },
+  {
+    "id": 8,
+    "exam_category": "State PCS",
+    "image": "exam (15).webp"
+  },
+  {
+    "id": 9,
+    "exam_category": "Commerce",
+    "image": "exam (10).webp"
+  },
+  {
+    "id": 10,
+    "exam_category": "GATE",
+    "image": "exam (7).webp"
+  },
+  {
+    "id": 11,
+    "exam_category": "CUET",
+    "image": "exam (2).webp"
+  },
+  {
+    "id": 12,
+    "exam_category": "AE/JE",
+    "image": "exam (17).webp"
+  },
+  {
+    "id": 13,
+    "exam_category": "IIT JAM & CSIR NET",
+    "image": "exam (3).webp"
+  },
+  {
+    "id": 14,
+    "exam_category": "LAW",
+    "image": "exam (12).webp"
+  },
+  {
+    "id": 15,
+    "exam_category": "ESE GATE",
+    "image": "exam (14).webp"
+  },
+  {
+    "id": 16,
+    "exam_category": "IPMAT",
+    "image": "exam (6).webp"
+  },
+  {
+    "id": 17,
+    "exam_category": "UPSC",
+    "image": "exam (16).webp"
+  },
+  {
+    "id": 18,
+    "exam_category": "IELTS",
+    "image": "exam (4).webp"
+  }
+]
