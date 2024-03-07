@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 
 const CourseDetails = () => {
-  let { id } = useParams<{ id: string | undefined}>();
+  const { id } = useParams<{ id: string | undefined}>();
   const courseId = id ? parseInt(id) : undefined;
   console.log(id)
 

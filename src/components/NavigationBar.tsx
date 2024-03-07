@@ -1,23 +1,26 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import pwLogo from "../../assets/pwLogo.png";
 import PermPhoneMsgIcon from "@mui/icons-material/PermPhoneMsg";
 import { Button } from "@mui/material";
 import { ToastContainer, toast } from "react-toastify";
-const NavigationBar = () => {
 
-  let id = window.localStorage.getItem("name");
+const NavigationBar = () => {
+  const navigate = useNavigate();
+  const id = window.localStorage.getItem("name");
   console.log(id);
-  
+
   const handleLogout = () => {
     window.localStorage.removeItem("name");
-    toast.success("logout Succesfully")
+    navigate("/");
+    window.location.reload();
+    toast.success("logout Succesfully");
   };
   return (
     <>
       <nav className="navigationBar">
         <div className="logo">
-          <Link to='/'>
-          <img src={pwLogo} alt="" />
+          <Link to="/">
+            <img src={pwLogo} alt="" />
           </Link>
         </div>
 
@@ -38,9 +41,7 @@ const NavigationBar = () => {
               <button>Login/Register</button>
             </Link>
           ) : (
-            <Link to="/">
-              <button onClick={handleLogout}>Logout</button>
-            </Link>
+            <button onClick={handleLogout}>Logout</button>
           )}
         </div>
       </nav>
